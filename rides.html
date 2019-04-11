@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Rides | Luna Park Sydney</title>
+		<link rel="stylesheet" href="style.css">
+		<script src ="ridescopy.js"></script>
+
+
+<!-- GOOGLE FONTS  -->
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+		<script src="#"></script>
+	</head>
+	<body>
+
+<!-- HEADER IMAGE BANNER and LOGO -->		
+
+	<div id="wrapper">
+
+	<header>
+		<div class="background">
+			<img src="images/lunapark_header.jpg" alt="background image" width="960" height="288"/>
+		</div>
+		<div id ="header-text">
+			<h1> Sydney's </h1>
+			<h2> Luna Park </h2>
+		</div>
+
+
+<!-- SOCIAL MEDIA ICONS -->
+		<div class="header-social-media">
+				<a href="https://www.facebook.com/sydneylunapark/">
+				<img src="images/facebook_icon.jpg" alt="Facebook Link" width="50" height="50"/>
+				</a>
+				<a href="https://www.instagram.com/lunaparksydney/?hl=en">
+				<img src="images/instagram_icon.jpg" alt="Instagram Link" width="50" height="50"/>
+				</a>
+				<a href="https://www.youtube.com/user/justforfunsydney">
+					<img src="images/youtube_icon.jpg" alt="Youtube Link" width="50" height="50"/>
+				</a>			
+		</div>
+	</header>
+
+<!-- NAVIGATION BAR -->
+<div id="nav">
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Inside</a></li>
+			<li><a href="functions.html">Functions</a></li>
+			<li><a href="#">Transport</a></li>
+			<li><a href="#">Tickets</a></li>
+			<li><a href="#">Search:</a></li>
+		</ul>
+	</nav>
+</div>
+
+<!-- STICK NAV BAR SCRIPT -->
+<script> 
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("nav");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+</script>
+
+	<!-- SEARCH BAR -->
+
+		<div id="searchbar">
+			<form id="search_bar" action="#" method="get">
+				<input id="search_term" type="text" value="" placeholder=""/>
+				<button type="submit">Search</button>
+			</form>
+		</div>
+
+<!-- KIDS RIDES EVENTS  -->
+
+<section id = "rides">
+	<h3> For the little ones! </h3>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="images/kids_rides.jpg" style="width:80%">
+    <div class="text">Whirly Wheel!</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/carousel.jpg" alt = "carousel" style="width:80%">
+    <div class="text">Carousel!</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/slides.jpg" alt = "slides" style="width:80%">
+    <div class="text">Slides!</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div> 
+
+</section>
+
+
+
+
+<!-- BANNER -->
+	<section id = "banner" >
+	</section>
+
+<!-- EVERYONE ELSE SECTION -->
+
+<section id = "rides">
+	<h3> Everyone Else! </h3>
+</section> 
+
+<section id = "ride-images">
+<div class = "container">
+    <img src="images/everyone_else.jpg" alt = "dodgem city" class = "image">
+    <div class = "middle">
+    	<div class = "text"> DODGEM CITY </div>
+	</div>
+</div>
+
+ <div class = "container">
+    <img src="images/mystery_manor.jpg" alt = "mystery manor" class = "image">
+    <div class = "middle">
+    	<div class = "text"> MYSTERY MANOR </div>
+	</div>
+</div>
+
+ <div class = "container">
+    <img src="images/moon_ranger.jpg" alt = "moon ranger" class = "image">
+    <div class = "middle">
+    	<div class = "text"> MOON RANGER </div>
+	</div>
+</div>
+
+<div class = "container">
+    <img src="images/tango_train.png" alt = "tango train" class = "image">
+    <div class = "middle">
+    	<div class = "text"> TANGO TRAIN </div>
+	</div>
+</div>
+
+<div class = "container">
+    <img src="images/rotor.png" alt = "rotor" class = "image">
+    <div class = "middle">
+    	<div class = "text"> ROTOR </div>
+	</div>
+</div>
+
+<div class = "container">
+    <img src="images/wild_mouse.png" alt = "wild mouse" class = "image">
+    <div class = "middle">
+    	<div class = "text"> WILD MOUSE </div>
+	</div>
+</div>
+</section>
+
+
+
+<!-- BOTTOM NAV -->
+		
+		<div class="bottom-nav">
+			<ul >
+				<li><a href="#faq">FAQ</a></li>
+				<li><a href="#contactus">CONTACT US</a></li>
+				<li><a href="#workwithus">WORK WITH US</a></li>
+				<li><a href="#findyourphotos">FIND YOUR PHOTOS</a></li>
+				<li id="header-text-one"> Sydney's </li>
+				<li id="header-text-two"> Luna Park</li>
+			</ul>
+		</div>
+
+<!-- FOOTER -->
+
+	<footer>
+		<p>© Copyright Luna Park Marketing 2018. All Rights Reserved.</p>
+	</footer>
+	
+	</div>
+	</body>
+
+</html>

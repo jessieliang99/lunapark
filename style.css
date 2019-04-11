@@ -1,0 +1,990 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+	text-align: center; 
+}
+
+#wrapper {
+	background-color: #fcfbf0;
+	display: block;
+	width:960px;
+	margin:0px auto;
+	text-align: center;
+	position: relative;
+}
+
+
+header {
+	background-color: red;
+	display: block;
+	height:288px;
+}
+
+nav {
+	background-color:#fedc32;
+	text-align:left;
+	width:960px;
+	display: block;
+	padding: 2px;
+	word-spacing: 28px;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav a:link, a:visited {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 15pt;
+	color:#333333; 
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: normal;
+}
+
+nav a:hover, a:active {
+    color: rgb(255,255,255);
+}
+
+aside {
+    display: block;
+    width: 300px;
+    float: right;
+    margin-top: -373px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 130px;
+}
+
+footer {
+	background-color: #8eddf8;
+	font-family: 'Source Sans Pro', sans-serif;
+	height:40px;
+	font-size: 10pt;
+	letter-spacing: 1px;
+	display: block;
+	padding-top:10px;
+}
+
+footer p{
+	margin-top:0px;
+}
+
+/* HEADER LOGO */
+#header-text h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 26pt;
+	color: #e82441;
+	position:absolute;
+	top:36px;
+	left:65px;
+}
+
+#header-text h2{
+	font-family:'Titan One', cursive;
+	font-size: 30pt;
+	color: #e82441;
+	position:absolute;
+	top:95px;
+	left:30px;
+
+}
+
+/* SOCIAL MEDIA */
+	
+.header-social-media {
+	position:absolute;
+	top:200px;
+	left: 41px;
+	display: inline;
+}
+
+.header-social-media img{
+	display:block;
+	display: inline;
+	padding: 5px 5px;
+	border-radius: 30%;
+}
+
+/* NAV SEARCHBAR */
+
+#searchbar {
+	position:absolute;
+	top:290px;
+	right:5px;
+}
+
+.searchbar input{
+	float:left;
+	padding:6px 10px;
+	margin-top: 30px;
+	border:none;
+}
+
+.searchbar button{
+	background:#ddd;
+	float:right;
+	padding:6px 10px;
+	margin-top: 30px;
+	border:none;
+	cursor: pointer;
+}
+
+
+/* UPCOMING EVENTS SECTION */
+
+
+
+#upcoming-events h3{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size:18pt;
+	letter-spacing: 2px;
+	background-color: #054366;
+	color: white;
+	display:block;
+	text-transform: uppercase;
+	width:255px;
+	margin-left: 30px;
+
+}
+
+
+.feature_readmorebutton a:link, a:visited {
+	background-color: #fedc32;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:12pt; 
+	letter-spacing: 1px;
+	width: 137px;
+	padding: 5px;
+	border-radius:20px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+/* SIGN UP SECTION */
+
+#sign-up {
+	background-image: url(images/sign_up_banner.jpg);
+	height:186px;
+	display: block;
+	padding: 10px;
+    border-color:#DAD2D2;
+}
+
+input[type=text] {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:10pt; 
+    padding: 8px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:14pt; 
+	letter-spacing: 2px;
+    background-color: #e82441;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    padding: 6px 60px 10px 60px;
+    cursor: pointer;
+}
+
+#sign-up h3{
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #e82441;
+	color: white;
+	font-size:25pt; 
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 20px;
+	width:350px;
+	margin-left:323px;
+}
+
+.newsletter-signup {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+/* INFORMATION SECTION */
+
+#information {
+	font-family: 'Source Sans Pro', sans-serif;
+	display:block;
+	width:960px;
+}
+
+#information article{
+	background-color: #fcfbf0;
+	display:block;
+	float:left;
+	width:480px;
+	margin-right:0px;
+}
+
+#information img{
+	display: block;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	padding-right:30px;
+	padding-left:45px;
+}
+
+#information p{
+	width:420px;
+	text-align:center;
+	margin-left:30px;
+}
+
+.topic h5{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size:18pt; 
+	text-transform: uppercase;
+	background-color: #054366;
+	color: white;
+	letter-spacing: 2px;
+	width: 220px;
+	display: block;
+	margin-left:20px;
+	margin-bottom:20px;
+	margin-top:20px;
+	text-align: center;
+}
+
+/* BOTTOM NAV */
+
+.bottom-nav {
+	margin-bottom: 0px;
+	background-color:#fedc32;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 15pt;
+	list-style-type: none;
+	text-align:left;
+	width:960px;
+	display: block;
+	letter-spacing: 2px;
+}
+
+.bottom-nav ul{
+	margin-bottom: 0px;
+}
+
+.bottom-nav ul li {
+	display: inline;
+}
+
+.bottom-nav ul li a{
+	padding:10px 10px 0px 10px;
+	text-decoration: none;
+}
+
+.bottom-nav a:link, a:visited {
+	color:#333333; 
+	text-transform: uppercase;
+}
+
+.bottom-nav a:hover, a:active {
+    color: rgb(255,255,255);
+}
+
+/* BOTTOM NAV LOGO */
+
+#header-text-one {
+	font-family: 'Pacifico', cursive;
+	font-size: 22pt;
+	color: #e82441;
+
+}
+
+#header-text-two{
+	font-family:'Titan One', cursive;
+	font-size: 25pt;
+	color: #e82441;
+}
+
+/* FUNCTIONS PAGE */
+
+/* PUBLIC EVENTS */
+
+#left img{
+	border-right: 2px solid black;
+	padding-right: 24px;
+}
+
+#left {
+	padding-top: 20px;
+}
+
+#middle img{
+	border-right: 2px solid black;
+	padding-right: 24px;
+}
+
+#middle {
+	padding-top: 89px;
+}
+
+#right {
+	padding-top: 88px;
+}
+
+#public-events{
+	font-family: 'Source Sans Pro', sans-serif;
+	display:block;
+	width:960px;
+	height: 513px;
+}
+
+#public-events article{
+	background-color: #fcfbf0;
+	float:left;
+	display: block;
+	width:320px;
+}
+
+#public-events img{
+	display:block;
+	display: inline;
+	padding-left: 4px;
+}
+
+#functions-text p{
+	width:282px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size:18pt;
+	margin-top:20px;
+	margin-bottom:15px;
+	margin-left:10px;
+}
+
+.topic h3{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size:18pt; 
+	text-transform: uppercase;
+	background-color: #054366;
+	color: white;
+	letter-spacing: 2px;
+	width: 280px;
+	display: block;
+	margin-left:20px;
+	margin-bottom:30px;
+	margin-top:10px;
+	text-align: center;
+}
+
+/* ENQUIRIES BANNER */
+
+#enquiries {
+ 	background-image: url(images/sign_up_banner.jpg);
+ 	background-repeat: round;
+ 	height:150px;
+ }
+
+#enquiries h3 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 30pt;
+	background-color: #e82441;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 20px;
+	width:350px;
+	margin-left:323px;
+}
+
+#enquiries p{
+	height: 50px;
+	width:519px;
+	margin-left:230px;
+	background-color: rgb(255,255,255);
+	padding-top:8px;
+}
+
+/* PLAN YOUR OWN SECTION */
+
+#plan-your-own {
+	font-family: 'Source Sans Pro', sans-serif;
+	display:block;
+	width:960px;
+	height:500px;
+}
+
+#plan-your-own article{
+	background-color: #fcfbf0;
+	display:block;
+	float:left;
+	width:480px;
+	height:400px;
+	margin-right:0px;
+}
+
+#plan img {
+	margin-top:90px;
+}
+
+#plan-your-own img{
+	display: block;
+	margin-left: 20px;
+	padding-right:30px;
+	padding-left:45px;
+}
+
+.heading h5{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size:18pt; 
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #fedc32;
+	color: white;
+	letter-spacing: 2px;
+	width: 355px;
+	display: block;
+	margin-left:65px;
+	margin-bottom:20px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+.topic h4{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size:18pt; 
+	text-transform: uppercase;
+	background-color: #054366;
+	color: white;
+	letter-spacing: 2px;
+	width: 280px;
+	display: block;
+	margin-left:20px;
+	margin-bottom:30px;
+	margin-top:30px;
+	text-align: center;
+}
+
+/* RIDES PAGE */
+
+/* RIDES EVENTS */
+
+
+#rides h3 {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size:18pt;
+	letter-spacing: 2px;
+	background-color: #054366;
+	color: white;
+	display:block;
+	text-transform: uppercase;
+	width:290px;
+	margin-left: 30px;
+}
+
+#ridesone h3 {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size:18pt;
+	letter-spacing: 2px;
+	background-color: #054366;
+	color: white;
+	display:block;
+	text-transform: uppercase;
+	width:290px;
+	margin-left: 30px;
+}
+
+#rides h5 {
+	font-family: 'Source Sans Pro', sans-serif;
+	color:red;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 20pt;
+	margin:20px;
+}
+
+/* BANNER */
+#banner {
+ 	background-image: url(images/sign_up_banner.jpg);
+ 	background-repeat: round;
+ 	height:150px;
+}
+
+/* PLAN YOUR DAY PAGE */
+
+/* OPERATING HOURS */
+#operating-hours h2 {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size:18pt;
+	letter-spacing: 2px;
+	background-color: #054366;
+	color: #fedc32;
+	display:block;
+	text-transform: uppercase;
+	width:240px;
+	margin-left: 81px;
+	margin-top:34px;
+}
+
+#operating-hours-days p{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align:left;
+	font-size: 14pt;
+	text-transform: uppercase;
+	margin-left:81px;
+	word-spacing: 40px;
+	width:240px;
+	background-color: #cdeff9;
+
+}
+
+#operating-hours-times {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:14pt;
+	margin-top:-300px;
+	margin-left:-420px;
+}
+/* KEEP YOURSELF UPDATED ASIDE */
+
+.updated-topic {
+	height:200px;
+	width:350px;
+	background-image: url(images/keep_yourself_updated.jpg)
+
+}
+.updated-topic h3{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size:18pt;
+	letter-spacing: 2px;
+	background-color: #054366;
+	color: #fedc32;
+	display:block;
+	text-transform: uppercase;
+	width:350px;
+	margin-bottom: 0px;
+}
+
+.updated-topic p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:14pt;
+	width:280px;
+	background-color: #e82441;
+	color:#fedc32;
+	margin-left:35px;
+}
+
+
+#emailbar {
+	position:absolute;
+	top:500px;
+	right:100px;
+}
+
+.emailbar input{
+	float:left;
+	padding:6px 10px;
+	margin-top: 30px;
+	border:none;
+}
+
+.emailbar button{
+	background:#ddd;
+	float:right;
+	padding:6px 10px;
+	margin-top: 30px;
+	border:none;
+	cursor: pointer;
+}
+
+/* BUY ONLINE TICKETS */
+
+.buy-online-tickets h3 {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size:18pt;
+	background-color: #e82441;
+	color:white;
+	width:350px;
+	margin-bottom: 0px;
+}
+
+.buy-online-tickets h4 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:14pt;
+	background-color: #fedc32;
+	text-align:center;
+	color:black;
+	display: inline;
+	text-decoration: none;
+	padding-left: 45px;
+	padding-right: 45px;
+	width:350px;
+	margin-left:-123px;
+	border-right: 2px solid black;
+}
+
+.buy-online-tickets h5 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:14pt;
+	background-color: #fedc32;
+	text-align:center;
+	color:black;
+	display: inline;
+	text-decoration: none;
+	padding-left: 45px;
+	padding-right: 47px;
+	width:350px;
+	margin-right:-173px;
+	margin-left:-4px;
+}
+
+.buy-online-tickets a:link, a:visited {
+	color:#333333; 
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.buy-online-tickets a:hover, a:active {
+    color: rgb(255,255,255);
+}
+
+/* EXPEREINCE THE MAGIC */
+
+#experience-the-magic h3{
+	margin-bottom:0px;
+	background-color: #054366;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 65pt;
+	color: #fedc32;
+	height:140px;
+	margin-top:0px;
+	padding-top: 15px
+}
+
+#experience-the-magic h4{
+	margin-bottom:0px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 65pt;
+	color: white;
+	height:150px;
+	margin-top:-140px;
+	margin-right:10px;
+	padding-top: 15px
+}
+
+/* INFORMATION SECTION */
+
+#informationtwo article {
+	background-color: #fcfbf0;
+	display:block;
+	float:left;
+	height:320px;
+	margin-right:0px;
+}
+
+#informationtwo img {
+	display:block;
+	margin-top:30px;
+	margin-bottom: 0px;
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+#informationthree img {
+	margin-right: 50px;
+}
+
+
+.caption h5{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size:20pt; 
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #fedc32;
+	color: white;
+	width:360px;
+	letter-spacing: 2px;
+	width: 355px;
+	display: block;
+	margin-left:110px;
+	margin-bottom:20px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+/* INSIDE THE PARK PAGE */
+
+/* GOOGLE MAP SECTION */
+
+#map h1{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size:18pt;
+	letter-spacing: 2px;
+	background-color: #054366;
+	color: white;
+	display:block;
+	text-transform: uppercase;
+	width:300px;
+	margin-left: 30px;
+	margin-top:30px;
+	margin-bottom: 30px;
+}
+
+#googleMap {
+	width:100%;
+	height:400px;
+	margin-bottom:30px;
+}
+
+/* FOOD OPTIONS */
+
+#leftone {
+	padding-top: 20px;
+}
+
+#middleone {
+	padding-top: 89px;
+}
+
+#rightone {
+	padding-top: 88px;
+}
+
+#food-options{
+	font-family: 'Source Sans Pro', sans-serif;
+	display:block;
+	width:960px;
+	height: 513px;
+}
+
+#food-options article{
+	background-color: #cdeff9;
+	float:left;
+	display: block;
+	width:320px;
+}
+
+#food-options img{
+	display:block;
+	display: inline;
+}
+
+#food-options p{
+	width:282px;
+	color:red;
+	text-align: center;
+	text-transform: uppercase;
+	font-size:18pt;
+	margin-top:20px;
+	margin-bottom:15px;
+	margin-left:10px;
+}
+
+.topicone h3{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size:18pt; 
+	text-transform: uppercase;
+	background-color: #054366;
+	color: white;
+	letter-spacing: 2px;
+	width: 280px;
+	display: block;
+	margin-left:20px;
+	margin-bottom:30px;
+	margin-top:10px;
+	text-align: center;
+}
+
+/* SIDESHOW GAMES */
+
+#games img {
+	margin-left:-60px;
+	margin-right:-150px;
+	border-right: 2px solid black;
+	padding-right: 20px;
+	margin-bottom: 20px;
+}
+
+#games h3 {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size:18pt; 
+	text-transform: uppercase;
+	background-color: #054366;
+	color: white;
+	letter-spacing: 2px;
+	width: 300px;
+	display: block;
+	margin-left:20px;
+	margin-bottom:30px;
+	text-align: center;
+}
+
+#games-text {
+	display:block;
+    margin-right: 115px;
+    margin-left: 100px;
+	width:500px;
+	float: right;
+	text-align: left;
+}
+
+#games-text h4 {
+	font-family: 'Source Sans Pro', sans-serif;
+	width:282px;
+	color:red;
+	text-transform: uppercase;
+	font-size:18pt;
+}
+
+#games-text p {
+	font-family: 'Source Sans Pro', sans-serif;
+	width:500px;
+	font-size:14pt;
+}
+
+/* Nav bar */
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+ {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/*Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  background-color: #fedc32;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  margin-left:-480px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* Caption text */
+.text {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  background-color: #054366;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 80%;
+  text-align: center;
+  margin-left:96px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* OVERLAY EFFECT */
+.container {
+    position: relative;
+    width:50%;
+    height:270px;
+    float:left;
+}
+
+.image {
+  display: inline-block;
+  width:420px;
+  height:250px;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 60%;
+  left: 33%;
+  width:200px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #054366;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+#ride-images {
+	height: 800px;
+}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Homepage | Luna Park Sydney</title>
+		<link rel="stylesheet" href="style.css">
+		<script src ="homepage.js"></script>
+
+
+<!-- GOOGLE FONTS  -->
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+		<script src="#"></script>
+	</head>
+	<body>
+
+<!-- HEADER IMAGE BANNER and LOGO -->		
+
+	<div id="wrapper">
+
+	<header>
+		<div class="background">
+			<img src="images/lunapark_header.jpg" alt="background image" width="960" height="288"/>
+		</div>
+		<div id ="header-text">
+			<h1> Sydney's </h1>
+			<h2> Luna Park </h2>
+		</div>
+
+
+<!-- SOCIAL MEDIA ICONS -->
+		<div class="header-social-media">
+				<a href="https://www.facebook.com/sydneylunapark/">
+				<img src="images/facebook_icon.jpg" alt="Facebook Link" width="50" height="50"/>
+				</a>
+				<a href="https://www.instagram.com/lunaparksydney/?hl=en">
+				<img src="images/instagram_icon.jpg" alt="Instagram Link" width="50" height="50"/>
+				</a>
+				<a href="https://www.youtube.com/user/justforfunsydney">
+					<img src="images/youtube_icon.jpg" alt="Youtube Link" width="50" height="50"/>
+				</a>			
+		</div>
+	</header>
+
+
+<!-- NAVIGATION BAR -->
+<div id="nav">
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="insidethepark.html">Inside</a></li>
+			<li><a href="functions.html">Functions</a></li>
+			<li><a href="#">Transport</a></li>
+			<li><a href="#">Tickets</a></li>
+			<li><a href="#">Search:</a></li>
+		</ul>
+	</nav>
+</div>
+
+<!-- STICK NAV BAR SCRIPT -->
+<script> 
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("nav");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+</script>
+
+	<!-- SEARCH BAR -->
+
+		<div id="searchbar">
+			<form id="search_bar" action="#" method="get">
+				<input id="search_term" type="text" value="" placeholder=""/>
+				<button type="submit">Search</button>
+			</form>
+		</div>
+
+<!-- UPCOMING EVENTS  -->
+<section id = "upcoming-events">
+	<h3> Upcoming events </h3>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="images/upcoming_events_vivid.jpg" alt ="vivid" style="width:80%">
+    <div class="text"> <b> Vivid Live: </b> Friday 25 May to 16 June : Experience the “Dine n’ Ride”! </div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/winterfest.jpg" alt = "winterfest" style="width:80%">
+    <div class="text"> <b> Winterfest: </b> Ice skating returns! </div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/twilight_saver.jpg" alt = "twilight saver" style="width:80%">
+    <div class="text"><b> Twilight Saver: </b> Unlimited rides with up to 44% off after 6pm!</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div> 
+
+
+	</section>
+
+	<!-- SIGN UP SECTION -->
+
+	<section id="sign-up">
+		<h3>KEEP UP TO DATE!</h3>
+			<div class="newsletter-signup">
+				<form action="/action_page.php">
+					<input type="text" name="firstname" value="First Name...">
+					<input type="text" name="lastname" value="Last Name...">
+					<input type="text" name="email-address" value="Email...">
+					<input type="submit" value="SUBSCRIBE!">
+				</form>
+			</div>
+	</section>
+
+	<!-- INFORMATION SECTION -->
+
+	<section id="information">
+
+		<article>
+			<div class="topic">
+				<h5>Plan Your Day</h5>
+			</div>
+		<a href="planyourday.html">
+		<img src="images/plan_your_day.jpg" alt="planyourday" width="430" height="271">
+		</a>
+			<p>Before you visit Luna Park, check out the operating hours, restrictions and any deals for the most memorable experience!</p>
+			<div class="feature_readmorebutton">
+					<h6><a href="planyourday.html"> >> READ MORE</a></h6>
+			</div>
+		</article>
+
+		<article>
+			<div class = "topic">
+				<h5> Tickets & Deals </h5>
+			</div>
+		<a href="#ticketsanddeals">
+			<img src="images/tickets_and_deals.jpg" alt="ticketsanddeals" width="430" height="271">
+		</a>
+			<p>Unsure of which ticket to purchase? Take a look at all our different options and promotions were offering!</p>
+			<div class="feature_readmorebutton">
+					<h6><a href="#readmore"> >> READ MORE</a></h6>
+			</div>
+			<div class="clear-both"></div>
+		</article>
+
+		<article>
+			<div class="topic">
+				<h5>Inside The Park</h5>
+			</div>
+		<a href="#insidethepark">
+		<img src="images/inside_the_park.jpg" alt="insidethepark" width="430" height="271">
+		</a>
+			<p>Have a peek inside! Explore the map, toilets, all different types of food, where you are and everything else! </p>
+			<div class="feature_readmorebutton">
+					<h6><a href="#readmore"> >> READ MORE</a></h6>
+			</div>
+		</article>
+
+		<article>
+			<div class = "topic">
+				<h5> All The Rides </h5>
+			</div>
+		<a href="rides.html">
+			<img src="images/all_the_rides.jpg" alt="all_the_rides" width="430" height="271">
+		</a>
+			<p>Discover all the different rides we have for those thrill seekers as well as those young ones! </p>
+			<div class="feature_readmorebutton">
+					<h6><a href="rides.html"> >> READ MORE</a></h6>
+			</div>
+			<div class="clear-both"></div>
+		</article>
+	</section>
+
+<!-- BOTTOM NAV -->
+		
+		<div class="bottom-nav">
+			<ul >
+				<li><a href="#faq">FAQ</a></li>
+				<li><a href="#contactus">CONTACT US</a></li>
+				<li><a href="#workwithus">WORK WITH US</a></li>
+				<li><a href="#findyourphotos">FIND YOUR PHOTOS</a></li>
+				<li id="header-text-one"> Sydney's </li>
+				<li id="header-text-two"> Luna Park</li>
+			</ul>
+		</div>
+
+<!-- FOOTER -->
+
+	<footer>
+		<p>© Copyright Luna Park Marketing 2018. All Rights Reserved.</p>
+	</footer>
+	
+
+	</div>
+	</body>
+
+</html>
+

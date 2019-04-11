@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Plan Your Day | Luna Park Sydney</title>
+		<link rel="stylesheet" href="style.css">
+		<script src ="insidethepark.js"></script>
+
+
+<!-- GOOGLE FONTS  -->
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+		<script src="#"></script>
+	</head>
+	<body>
+
+<!-- HEADER IMAGE BANNER and LOGO -->		
+
+	<div id="wrapper">
+
+	<header>
+		<div class="background">
+			<img src="images/lunapark_header.jpg" alt="background image" width="960" height="288"/>
+		</div>
+		<div id ="header-text">
+			<h1> Sydney's </h1>
+			<h2> Luna Park </h2>
+		</div>
+
+
+<!-- SOCIAL MEDIA ICONS -->
+		<div class="header-social-media">
+				<a href="https://www.facebook.com/sydneylunapark/">
+				<img src="images/facebook_icon.jpg" alt="Facebook Link" width="50" height="50"/>
+				</a>
+				<a href="https://www.instagram.com/lunaparksydney/?hl=en">
+				<img src="images/instagram_icon.jpg" alt="Instagram Link" width="50" height="50"/>
+				</a>
+				<a href="https://www.youtube.com/user/justforfunsydney">
+					<img src="images/youtube_icon.jpg" alt="Youtube Link" width="50" height="50"/>
+				</a>			
+		</div>
+	</header>
+
+<!-- NAVIGATION BAR -->
+<div id="nav">
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Inside</a></li>
+			<li><a href="functions.html">Functions</a></li>
+			<li><a href="#">Transport</a></li>
+			<li><a href="#">Tickets</a></li>
+			<li><a href="#">Search:</a></li>
+		</ul>
+	</nav>
+</div>
+
+<!-- STICK NAV BAR SCRIPT -->
+<script> 
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("nav");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+</script>
+
+<!-- SEARCH BAR -->
+
+	<div id="searchbar">
+		<form id="search_bar" action="#" method="get">
+			<input id="search_term" type="text" value="" placeholder=""/>
+				<button type="submit">Search</button>
+		</form>
+	</div>
+
+<!-- OPERATING HOURS  -->
+
+		<section id = "operating-hours">
+
+			<h2>operating hours</h2>
+
+			<div id ="operating-hours-days">
+				<p>Monday</p>
+				<p>Tuesday </p>
+				<p>Wednesday </p>
+				<p>Thursday </p>
+				<p>Friday</p>
+				<p>Saturday </p>
+				<p> Sunday</p>
+			</div>
+			
+			<div id = "operating-hours-times">
+				<p>11AM-4PM</p>
+				<p>11AM-4PM</p>
+				<p>10AM-4PM</p>
+				<p>10AM-4PM </p>
+				<p>10AM-4PM </p>
+				<p>11AM-10PM</p>
+				<p>10AM-6PM</p>
+			</div>
+
+		</section>
+
+<!-- KEEP YOURSELF UPDATED AND ONLINE TICKETS -->
+
+		<aside id = "keep-yourself-updated">
+
+			<div class="updated-topic">	
+				<h3>Keep Yourself Updated!</h3>
+				<p>MAKE SURE YOU KEEP AN EYE OUT FOR MORE UPCOMING EVENTS! </p>
+			</div>
+
+			<div id="emailbar">
+				<form id="email_bar" action="#" method="get">
+				<input id="email_term" type="text" value="" placeholder=""/>
+					<button type="subscribe">subscribe!</button>
+				</form>
+			</div> 
+
+			<div class = "buy-online-tickets" >
+				<h3> BUY ONLINE TICKETS </h3>
+				<h4><a href="#viewcart"> View Cart</a></h4>
+				<h5><a href="#proceed"> Proceed</a></h5>
+			</div>
+		</aside>
+
+<!-- BANNER  -->
+
+		<section id = "banner" >
+		</section>
+
+<!-- EXPERIENCE THE MAGIC -->
+
+		<section id = "experience-the-magic">
+			<h3> EXPERIENCE THE MAGIC </h3>
+			<h4> EXPERIENCE THE MAGIC </h4>
+		</section>
+
+<!-- INFORMATION SECTION -->
+
+		<section id="informationtwo">
+
+		<article id = "informationtwo">
+		<a href="#information">
+		<img src="images/ride_height_limits.jpg" alt="ride_height_limits" width="430" height="250">
+		</a>
+		<div class = "heading">
+				<h5><a href =#ride> Ride Height Limits </a></h5>
+			</div>
+		</article>
+
+		<article id = "informationthree">
+		<a href="#information">
+		<img src="images/maintenence_schedule.jpg" alt="maintenence_schedule" width="430" height="250">
+		</a>
+		<div class = "heading">
+				<h5><a href =#maintenence> Maintenence Schedule </a></h5>
+			</div>
+		</article>
+
+
+		</section>
+
+		<!-- BOTTOM NAV -->
+		
+		<div class="bottom-nav">
+			<ul >
+				<li><a href="#faq">FAQ</a></li>
+				<li><a href="#contactus">CONTACT US</a></li>
+				<li><a href="#workwithus">WORK WITH US</a></li>
+				<li><a href="#findyourphotos">FIND YOUR PHOTOS</a></li>
+				<li id="header-text-one"> Sydney's </li>
+				<li id="header-text-two"> Luna Park</li>
+			</ul>
+		</div>
+
+<!--  FOOTER -->
+
+	<footer>
+		<p>© Copyright Luna Park Marketing 2018. All Rights Reserved.</p>
+	</footer> 
+
+
+		</div>
+	</body>
+
+</html>

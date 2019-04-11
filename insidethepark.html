@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Inside The Park | Luna Park Sydney</title>
+		<link rel="stylesheet" href="style.css">
+		<script src ="insidethepark.js"></script>
+
+
+
+<!-- GOOGLE FONTS  -->
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+		<script src="#"></script>
+	</head>
+	<body>
+
+<!-- HEADER IMAGE BANNER and LOGO -->		
+
+	<div id="wrapper">
+
+	<header>
+		<div class="background">
+			<img src="images/lunapark_header.jpg" alt="background image" width="960" height="288"/>
+		</div>
+		<div id ="header-text">
+			<h1> Sydney's </h1>
+			<h2> Luna Park </h2>
+		</div>
+
+
+<!-- SOCIAL MEDIA ICONS -->
+		<div class="header-social-media">
+				<a href="https://www.facebook.com/sydneylunapark/">
+				<img src="images/facebook_icon.jpg" alt="Facebook Link" width="50" height="50"/>
+				</a>
+				<a href="https://www.instagram.com/lunaparksydney/?hl=en">
+				<img src="images/instagram_icon.jpg" alt="Instagram Link" width="50" height="50"/>
+				</a>
+				<a href="https://www.youtube.com/user/justforfunsydney">
+					<img src="images/youtube_icon.jpg" alt="Youtube Link" width="50" height="50"/>
+				</a>			
+		</div>
+	</header>
+
+<!-- NAVIGATION BAR -->
+<div id="nav">
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Inside</a></li>
+			<li><a href="functions.html">Functions</a></li>
+			<li><a href="#">Transport</a></li>
+			<li><a href="#">Tickets</a></li>
+			<li><a href="#">Search:</a></li>
+		</ul>
+	</nav>
+</div>
+
+<!-- STICK NAV BAR SCRIPT -->
+<script> 
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("nav");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+</script>
+
+	<!-- SEARCH BAR -->
+
+		<div id="searchbar">
+			<form id="search_bar" action="#" method="get">
+				<input id="search_term" type="text" value="" placeholder=""/>
+				<button type="submit">Search</button>
+			</form>
+		</div>
+
+<!-- GOOGLE MAP SECTION -->
+
+		<section id = "map">
+
+			<h1> Have a Look Around... </h1>
+
+			<div id="googleMap"></div>
+
+			<script src="https://maps.googleapis.com/maps/api/js?key=
+			AIzaSyCySzDmIzPcBpEDAZmwdV11-TK54TeCtNo
+			&callback=myMap"></script>
+
+		</section>
+
+<!-- FOOD OPTIONS -->
+
+		<section id = "food-options">
+		<article id ="leftone">
+			<div class = "topicone">
+				<h3> Food Options... </h3>
+			</div>
+			<a href="#">
+			<img src="images/helter_skelter.jpg" alt="helter_skelter"/>
+			</a>
+			<div id="food-text">
+				<p> Helter Skelter </p> 
+			</div>
+			<div class="feature_readmorebutton">
+					<h6><a href="#readmore"> >> READ MORE</a></h6>
+			</div>
+			<div class="clear-both"></div>
+		</article>
+
+		<article id = "middleone">
+			<a href="#">
+			<img src="images/high_tea_up_top.jpg" alt="high_tea_up_top"/>
+			</a>
+			<div id="food-text">
+				<p> The Deck Sydney </p> 
+			</div>
+			<div class="feature_readmorebutton">
+					<h6><a href="#readmore"> >> READ MORE </a></h6>
+			</div>
+			<div class="clear-both"></div>
+		</article>
+
+		<article id = "rightone">
+			<a href="#">
+			<img src="images/vivid_sydney.jpg" alt="vivid_sydney"/>
+			</a>
+			<div id="food-text">
+				<p> Fairy Floss </p> 
+			</div>
+			<div class="feature_readmorebutton">
+					<h6><a href="#readmore"> >> READ MORE </a></h6>
+			</div>
+			<div class="clear-both"></div>
+		</article>
+
+		</section>	
+
+	<!-- SIDE SHOW GAMES  -->
+
+	<section id = "sideshow-games">
+		<article id ="games">
+				<h3> Our Sideshow Games </h3>
+			<a href="#">
+			<img src="images/laughing_clowns.jpg" alt="laughing_clowns"/>
+			</a>
+			<div id="games-text">
+				<h4> Laughing Clowns </h4> 
+				<p> Luna Park Sydney’s clowns have been laughing for more than 80 years... To win a princely prize from them requires a combination of skill, daring, intense concentration and perfect timing. Can you stop the clowns from laughing and line up a triump? Or will they have the last laugh again? </p>
+			</div>
+		</article>
+
+		<article id = "games">
+			<a href="#">
+			<img src="images/hi_striker.jpg" alt="hi_striker"/>
+			</a>
+			<div id="games-text">
+				<h4> Hi Striker </h4> 
+				<p> This is the battle of ulitmate strength... Raise the hammer as you slam your way to the top for a chance to win the biggest prize we have. Many swing but few hear that ‘ding!’. </p>
+			</div>
+			<div class="feature_readmorebutton">
+					<h6><a href="#readmore"> >> SEE MORE</a></h6>
+			</div>
+			<div class="clear-both"></div>
+		</article>
+
+	</section>
+
+<!-- BOTTOM NAV -->
+		
+		<div class="bottom-nav">
+			<ul >
+				<li><a href="#faq">FAQ</a></li>
+				<li><a href="#contactus">CONTACT US</a></li>
+				<li><a href="#workwithus">WORK WITH US</a></li>
+				<li><a href="#findyourphotos">FIND YOUR PHOTOS</a></li>
+				<li id="header-text-one"> Sydney's </li>
+				<li id="header-text-two"> Luna Park</li>
+			</ul>
+		</div>
+
+<!--  FOOTER -->
+
+	<footer>
+		<p>© Copyright Luna Park Marketing 2018. All Rights Reserved.</p>
+	</footer> 
+
+
+	</div>
+	</body>
+
+</html>
+
